@@ -1,0 +1,95 @@
+body {
+   color: black;
+   background-color: cornflowerblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif
+   
+   }
+   .contact {
+    padding: 0px 50px;
+    font-size: larger;
+    text-align: center;
+    color:black;
+    }
+    .educacao {
+        padding: 0px 50px;
+        font-size: larger;
+        text-align: left;
+        color: black;
+        }
+    .pessoal {
+            padding: 5px 50px;
+            font-size: large;
+            text-align: justify;
+            color: black;
+    }
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+ 
+   
+}
+
+a {color:darkblue;
+    text-decoration: none;
+}
+h1 {color:darkblue;
+    text-align: center;
+}
+
+header {
+    font-weight:bold;
+    text-transform: none;
+    }
+
+
+header img{ 
+    width: 170px;
+    height: 170px;
+    border-radius: 25%;
+    border: 5px solid gray;
+
+}
+.local {
+    text-align: center;
+
+}
+footer img{
+    width: 40px;
+    height: 40px;
+
+}
+footer {
+    display:flex;
+    justify-content:center;
+    font-size: small;
+}
+footer a {
+    margin: 15px;
+    text-align:center;
+
+}
+footer p{
+    margin-top: 5px;
+    text-align: center;
+   
+}
+
+.container {
+    padding: 0px 50px;
+    font-size: medium;
+
+}
+
+nav a:hover{
+    color:white;
+} 
+.educacao {
+    padding: 0px 50px;
+    font-size: medium;
+}
+
